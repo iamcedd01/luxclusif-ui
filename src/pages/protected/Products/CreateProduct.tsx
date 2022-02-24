@@ -121,11 +121,6 @@ const CreateProduct: FC = () => {
         let isValid = true;
         let errors = {};
 
-        if (!sku) {
-            isValid = false;
-            errors = { ...errors, sku: 'SKU is required' };
-        }
-
         if (!name) {
             isValid = false;
             errors = { ...errors, name: 'Product Name is required' };
@@ -148,7 +143,7 @@ const CreateProduct: FC = () => {
 
         setErrors(errors);
         return isValid;
-    }, [brand, category, name, price, sku]);
+    }, [brand, category, name, price]);
 
     const handleSave = useCallback(async () => {
         const valid = handleValidate();
@@ -170,7 +165,6 @@ const CreateProduct: FC = () => {
                 const { data } = err.response;
                 setErrors(data.errors);
             });
-        // navigate('/');
     }, [brand, category, description, handleValidate, medias, name, options, price, sku]);
 
     return (

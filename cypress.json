@@ -1,0 +1,26 @@
+{
+    "projectId": "2p4xtn",
+    "baseUrl": "http://localhost:3000",
+    "env": {
+        "screenshot": true,
+        "key": {
+            "chip": "data-cy=cs-chip",
+            "text": "data-cy=cs-text",
+            "modal": "data-cy=cs-modal",
+            "input": "data-cy=cs-input",
+            "button": "data-cy=cs-button",
+            "label": "data-cy=cs-label"
+        }
+    },
+    "viewportHeight": 1536,
+    "viewportWidth": 2048,
+    "videoCompression": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/reports",
+        "overwrite": true,
+        "html": true,
+        "json": false,
+        "timestamp": "mmddyyyy_HHMMss"
+    }
+}

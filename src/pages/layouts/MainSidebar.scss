@@ -1,0 +1,8 @@
+.root {
+    .paper {
+        @apply relative whitespace-nowrap w-drawer box-border;
+
+        &.open {
+        }
+    }
+}

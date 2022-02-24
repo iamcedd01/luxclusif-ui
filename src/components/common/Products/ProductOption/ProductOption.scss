@@ -1,0 +1,35 @@
+.root {
+    .wrapper {
+        @apply flex items-start;
+
+        .remove {
+            @apply text-primary cursor-pointer;
+        }
+
+        .content {
+            @apply flex-1 mr-4;
+
+            .value {
+                @apply flex items-center mb-2;
+
+                .input {
+                    @apply flex-1 mb-0 mr-2 last:mr-0;
+                }
+            }
+        }
+    }
+
+    .viewWrapper {
+        @apply flex items-center justify-between;
+
+        .content {
+            .values {
+                @apply flex;
+
+                .value {
+                    @apply mr-1 last:mr-0;
+                }
+            }
+        }
+    }
+}

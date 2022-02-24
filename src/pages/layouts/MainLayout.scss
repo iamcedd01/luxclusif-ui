@@ -1,0 +1,8 @@
+.root {
+    .content {
+        @apply grow p-4;
+    }
+    .spacer {
+        @apply flex items-center justify-end my-8;
+    }
+}

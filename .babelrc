@@ -1,0 +1,38 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "usage",
+                "corejs": {
+                    "version": "3.16",
+                    "proposals": true
+                }
+            }
+        ],
+        [
+            "@babel/preset-react",
+            {
+                "runtime": "automatic"
+            }
+        ],
+        "@babel/preset-typescript"
+    ],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "extensions": [".ts", ".tsx"],
+                "root": ["./src/"]
+            }
+        ],
+        [
+            "@babel/plugin-transform-runtime",
+            {
+                "regenerator": true
+            }
+        ],
+        "react-hot-loader/babel",
+        "transform-react-handled-props"
+    ]
+}

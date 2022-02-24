@@ -1,0 +1,25 @@
+.root {
+    .dropzone {
+        @apply flex flex-1 flex-col items-center p-5 border-2 rounded-sm border-light border-dashed text-general outline-none;
+    }
+
+    .container {
+        @apply flex flex-row flex-wrap mt-4;
+    }
+
+    .thumb {
+        @apply inline-flex rounded-sm border border-solid border-light mb-2 mr-2 w-24 h-24 p-1 box-border relative;
+
+        .inner {
+            @apply flex min-w-0 h-full;
+
+            .img {
+                @apply block w-auto h-full;
+            }
+        }
+
+        .close {
+            @apply absolute top-0 right-0 text-xs w-4 h-4 flex items-center justify-center cursor-pointer;
+        }
+    }
+}

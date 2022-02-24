@@ -1,0 +1,68 @@
+{
+    "LBL_SEARCH_PRODUCTS": "Search Products",
+    "LBL_PRODUCT_LISTING": "Product Listing",
+    "LBL_CREATE_PRODUCT": "Create Product",
+    "LBL_UPDATE_PRODUCT": "Update Product",
+    "LBL_VIEW_PRODUCT": "View Product",
+
+    "LBL_ID": "ID",
+    "LBL_NAME": "Name",
+    "LBL_BRAND": "Brand",
+    "LBL_PRICE": "Price",
+    "LBL_CATEGORY": "Category",
+    "LBL_QUANTITY": "Quantity",
+    "LBL_INVENTORY": "Inventory",
+    "LBL_DESCRIPTION": "Description",
+    "LBL_SKU": "SKU (Stock Keeping Unit)",
+    "LBL_COMPARE_AT_PRICE": "Compare at price",
+
+    "LBL_WELCOME": "Welcome, Login to Luxclusif",
+
+    "LBL_PASSWORD": "Password",
+    "LBL_USERNAME_OR_EMAIL": "Username or Email",
+
+    "LBL_PAGE_RESULT": "RESULT {{currentResult}}/{{totalResult}}",
+
+    "LBL_MEDIA": "Media",
+    "LBL_OPTIONS": "Options",
+    "LBL_VARIANTS": "Variants",
+    "LBL_BASIC_INFORMATION": "Basic Information",
+    "LBL_OTHER_INFORMATION": "Other Information",
+    "LBL_PRICING_INFORMATION": "Pricing Information",
+    "LBL_DRAG_N_DROP": "Drag 'n' drop some files here, or click to select files",
+
+    "LBL_OPTION_NAME": "Option Name",
+    "LBL_OPTION_VALUES": "Option Values",
+
+    "LBL_FAILED": "Failed",
+    "LBL_SUCCESS": "Success",
+    "LBL_PRODUCT_ADDED_MESSAGE": "Product successfully created",
+    "LBL_PRODUCT_UPDATE_MESSAGE": "Product successfully updated",
+
+    "PLACEHOLDER_ENTER_BRAND": "Enter Brand",
+    "PLACEHOLDER_ENTER_CATEGORY": "Enter Category",
+    "PLACEHOLDER_ENTER_OPTION_NAME": "Enter option name",
+    "PLACEHOLDER_ENTER_OPTION_VALUE": "Enter option value",
+    "PLACEHOLDER_ENTER_PRODUCT_NAME": "Enter product name",
+    "PLACEHOLDER_ENTER_SKU": "Enter SKU (Stock Keeping Unit)",
+    "PLACEHOLDER_ENTER_PRODUCT_DESC": "Enter product description",
+
+    "PLACEHOLDER_ENTER_PASSWORD": "Enter password",
+    "PLACEHOLDER_ENTER_USERNAME_OR_EMAIL": "Enter username or email",
+
+    "ERROR_EMAIL_EMPTY": "Email is required",
+    "ERROR_PASSWORD_EMPTY": "Password is required",
+    "ERROR_PASSWORD_NOT_MATCH": "Password doesn't match.",
+
+    "BTN_OK": "OK",
+    "BTN_BACK": "Back",
+    "BTN_DONE": "Done",
+    "BTN_EDIT": "Edit",
+    "BTN_SAVE": "Save",
+    "BTN_LOGIN": "Login",
+    "BTN_UPDATE": "Update",
+    "BTN_FILTER": "Filter",
+    "BTN_ADD_OPTION": "Add Option",
+    "BTN_CREATE_PRODUCT": "Create Product",
+    "BTN_UPDATE_PRODUCT": "Update Product"
+}

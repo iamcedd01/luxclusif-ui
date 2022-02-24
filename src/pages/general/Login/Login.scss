@@ -1,0 +1,19 @@
+.root {
+    @apply flex items-center justify-center w-full h-screen;
+
+    .wrapper {
+        @apply w-1/4 h-auto;
+
+        .title {
+            @apply uppercase font-bold text-lg;
+        }
+
+        .divider {
+            @apply my-2;
+        }
+
+        .action {
+            @apply flex justify-end;
+        }
+    }
+}

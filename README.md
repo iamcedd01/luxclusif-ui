@@ -24,6 +24,15 @@ cd luxclusif-ui
 npm install
 ```
 
+## Running local
+```bash
+cd luxclusif-ui
+npm start
+```
+
+_Note: Be sure that API Server is running_
+- [Luxclusif API](https://github.com/iamcedd01/luxclusif-api.git)
+
 ## Running tests
 
 ```bash

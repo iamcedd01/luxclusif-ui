@@ -20,6 +20,9 @@ This project allows user to create, view and edit Luxcrusif product catalog.
 -   [Material UI v5](https://mui.com/)
 -   [Axios](https://github.com/axios/axios)
 -   [Cypress](https://www.cypress.io/)
+-   [React i18next](https://react.i18next.com/)
+    - We used React i18next for internationalization.
+    - To handle multiple languages, we should create a new localization file in `/src/asset/locales/[lang]/common.json`
 
 ## Setup / Installation
 

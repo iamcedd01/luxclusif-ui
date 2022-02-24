@@ -6,6 +6,11 @@ Resale Product Information Management
 
 This project allows user to create, view and edit Luxcrusif product catalog.
 
+## Screenshots
+![Product Listing](https://user-images.githubusercontent.com/86236751/155505848-b8fef34b-f5a5-4eba-a21e-6c0f1b186dc9.png)
+
+![Update - Create Product](https://user-images.githubusercontent.com/86236751/155505906-4071503b-bdae-48b3-b683-edf35dc346b0.png)
+
 ## Technologies Used
 
 -   ReactJS
